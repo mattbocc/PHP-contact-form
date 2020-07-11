@@ -66,7 +66,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $success = "Thank you for reaching out, I will get back to you within 48 hours!";
         }
         else{
-            $success = "Unsuccessful, recheck the forum";
+            $success = "Unsuccessful, recheck the form";
         }
 
         $fname = $lname = $company = $email = "";
